@@ -52,4 +52,8 @@ elConfirmBtn.addEventListener("click", function () {
     elMovieList.appendChild(li);
 
     elTitleInput.value = "";
-   
+    elDirectorInput.value = "";
+    elRatingInput.value = "";
+    elBackdrop.classList.add("hidden");
+    elModal.classList.add("hidden");
+});
